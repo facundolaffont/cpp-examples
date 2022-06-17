@@ -1,2 +1,2 @@
-# cpp-examples
+# cpp-functions
 C++ utility functions.
