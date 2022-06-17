@@ -1,5 +1,5 @@
 /**
- * @brief Validates an AD date, including leap years.
+ * @brief Validates if an AD date is correctly written, including leap years.
  * 
  * @param day day of the date.
  * @param month month of the date.
@@ -8,7 +8,7 @@
  */
 bool isValidDate(short day, short month, short year) {
     int maxDayNumber[13] = {
-        0, // For offset
+        0, // Alingment
         31, // January
         29, // February
         31, // March
